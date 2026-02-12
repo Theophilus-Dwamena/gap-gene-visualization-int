@@ -27,15 +27,16 @@ st.markdown(
 
 # --- Stage folders ---
 stage_folders = {
-    "Stage 3.3": "data/Stage3_3",
-    "Stage 4.1": "data/Stage4_1",
+    #"Stage 3.3": "data/Stage3_3",
+    #"Stage 4.1": "data/Stage4_1",
     "Stage 4.2": "data/Stage4_2",
-    "Stage 4.3": "data/Stage4_3",
+    #"Stage 4.3": "data/Stage4_3",
     "Stage 5.2": "data/Stage5_2",
-    "Stage 5.3": "data/Stage5_3",
+    #"Stage 5.3": "data/Stage5_3",
     "Stage 6.2": "data/Stage6_2",
-    "Stage 6.3": "data/Stage6_3",
-    "Stage 7.1": "data/Stage7_1"
+    #"Stage 6.3": "data/Stage6_3",
+    # "Stage 7.1": "data/Stage7_1",
+    "Stage 7.3": "data/Stage7_3"
 }
 
 # --- Sidebar ---
@@ -258,3 +259,4 @@ fig.savefig(buf_pdf, format="pdf", bbox_inches='tight')
 buf_pdf.seek(0)
 
 st.download_button("Download PDF", buf_pdf, file_name="gap_gene_plot.pdf", mime="application/pdf")
+
