@@ -281,7 +281,7 @@ if show_blocks:
 
             # --- Perceptual intensity: I = α·y + (1-α)·P ---
             alpha = 0.3
-            window = 50
+            window = 75
             n_dense = len(y_dense)
             r = np.zeros(n_dense)
             for i in range(n_dense):
