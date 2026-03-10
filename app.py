@@ -19,7 +19,7 @@ def load_stage_data(stage_folder):
 
 @st.cache_data
 def load_stage_data_smoothed(stage_folder):
-    return stage_utils.read_stage_folder_smoothed(stage_folder, frac=0.25, polyorder=3)
+    return stage_utils.read_stage_folder_smoothed(stage_folder, frac=0.1, polyorder=3)
 
 
 st.set_page_config(layout="wide", page_title="Gap Gene Visualizer")
